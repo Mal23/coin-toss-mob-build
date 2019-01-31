@@ -1,0 +1,11 @@
+.hidden {
+    visibility: hidden;
+}
+#image-container {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 190px;
+}
