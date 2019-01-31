@@ -1,11 +1,30 @@
+body {
+    text-align: center;
+}
+
 .hidden {
     visibility: hidden;
 }
 #image-container {
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    margin: auto;
 }
 
 img {
-    width: 190px;
+    width: 190px
 }
+
+button {
+    color: white;
+    background: blue;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.block {
+    padding:5px;
+    display: inline-block;
+    border: 1px solid;
+    margin: 10px;
+}
+

@@ -18,7 +18,7 @@ button.addEventListener('submit', function(event) {
    
     if(side === 'heads') {
         image.src = './assets/heads.png';
-        result.textContent = 'heads!!!!!!!';
+        result.textContent = 'Heads!!!!!!!';
         head++;
         headCount.textContent = 'Head Count: ' + head; 
 
@@ -26,7 +26,7 @@ button.addEventListener('submit', function(event) {
     
     else {
         image.src = './assets/tails.jpg';
-        result.textContent = 'tails...';
+        result.textContent = 'Tails...';
         tail++;
         tailCount.textContent = 'Tail Count: ' + tail; 
 
